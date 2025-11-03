@@ -13,8 +13,11 @@ from dashscope.audio.qwen_omni.omni_realtime import TranscriptionParams
 import pygame
 
 
-# api_work.work_text("你好呀,你有什么问题嘛？") 此处可以设置提示次回应
-
+# api_work.work_text("你好呀,你有什么问题嘛？") 此处可以设置检测词回应
+# api_key 设置 init_api_key
+# 可以在初始 __int__ 中更改检测词
+# _handle_final_text 检测词识别，在这个地方加检测词回应
+# stop_recording 检测后执行的文本转化，在在这个地方添加语音对话接口
 
 
 def play_wav(wav_path):

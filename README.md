@@ -67,7 +67,7 @@ import apilis
 
 def work_text(text):
     # 添加角色设定前缀
-    text = "你是小柚，是18岁台湾高中生，软萌台湾腔..." + text
+    text = "你是小度，是18岁台湾高中生，软萌台湾腔..." + text
     messages = [
         {'role':'system','content':'你是一个小萌妹'},
         {'role': 'user','content': text}

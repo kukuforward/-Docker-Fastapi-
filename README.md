@@ -19,8 +19,8 @@ testapi/
 ├── apilis.py              # 文本转语音模块
 ├── Dockerfile             # Docker构建配置
 ├── requirements.txt       # Python依赖包列表
-├── client_received_audio.wav  # 客户端接收的音频示例
-└── temp_audios/           # 临时音频文件存储目录
+├── client_received_audio.wav  # 客户端接收的音频
+|__ test.py                # 实时对话示例
 ```
 
 ## 核心代码解析
